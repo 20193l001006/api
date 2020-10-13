@@ -7,10 +7,10 @@
             private $Connection = "";
 
             public function __construct() {
-                $this-> Host = "localhost";
-                $this-> User = "root";
-                $this-> Password = "";
-                $this-> DataBase = "sakila";
+                $this-> Host = "us-cdbr-east-02.cleardb.com";
+                $this-> User = "b6e1bcca8f1eb8";
+                $this-> Password = "8f985145";
+                $this-> DataBase = "heroku_9f2d938342f3d47";
             }
 
             public function OpenConnection() {

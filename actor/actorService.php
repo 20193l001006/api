@@ -36,7 +36,7 @@
 
             } else if(is_numeric($_GET['param'])){
                     $actorService -> read($_GET['param']);
-            } else 
+            }
             break;
             }
         case 'PUT':
